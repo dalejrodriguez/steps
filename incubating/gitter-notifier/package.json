@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "handlebars": "^4.0.12",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "request-promise": "^4.2.2"
   },
   "devDependencies": {
