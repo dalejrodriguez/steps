@@ -142,6 +142,11 @@ readable-stream@~1.0.0:
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
+retry@^0.10.1:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/retry/-/retry-0.10.1.tgz#e76388d217992c252750241d3d3956fed98d8ff4"
+  integrity sha1-52OI0heZLCUnUCQdPTlW/tmNj/Q=
+
 safe-buffer@~5.1.0:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
@@ -162,12 +167,13 @@ scp2@^0.5.0:
     lodash "~4.11.1"
     ssh2 "~0.4.10"
 
-ssh2-sftp-client@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/ssh2-sftp-client/-/ssh2-sftp-client-2.5.0.tgz#bea4e7b1bb8b600c177c4fe42aa792d821eb634a"
-  integrity sha512-faPgWQF0UF1jkZ7rw1Sp4xuCRLJqJ81TDqckcluUA8wT6AKSkjhb/538RdliHNGUeCY9pYESTuoOBly3facX0g==
+ssh2-sftp-client@^2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/ssh2-sftp-client/-/ssh2-sftp-client-2.5.2.tgz#45df13e19a50631a9ff16730d9fa0b4e991b7419"
+  integrity sha512-fCRn27D7orknW4DkrfOZ9DS9uFrtnoxQdRHVivAPxZWKgmWXeuG0HZj/AnwtRCZglyFwuoWsazvI5/4OiS8F7A==
   dependencies:
     concat-stream "^2.0.0"
+    retry "^0.10.1"
     ssh2 "^0.8.2"
 
 ssh2-streams@~0.0.22:
