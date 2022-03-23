@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.14.4
 
 RUN apk -U add jq bash curl
 
