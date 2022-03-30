@@ -2,7 +2,7 @@ FROM golang:alpine AS build-env
 ADD . /src
 RUN cd /src && go build -o hello-web
 
-FROM alpine
+FROM alpine:3.15.3
 
 EXPOSE 8080
 
