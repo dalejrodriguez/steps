@@ -2,7 +2,7 @@ ARG makisu_version
 
 FROM gcr.io/makisu-project/makisu:v0.1.9 as makisu
 
-FROM alpine:3.7
+FROM alpine:3.12.12
 
 RUN apk -U add bash
 
