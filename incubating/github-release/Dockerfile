@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.14.6
 
 ENV GITHUB_RELEASE_VERSION=v0.7.2
 
