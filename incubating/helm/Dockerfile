@@ -1,6 +1,6 @@
 ARG HELM_VERSION
 
-FROM golang:latest as setup
+FROM golang:1 as setup
 ARG HELM_VERSION
 RUN curl -L "https://storage.googleapis.com/kubernetes-helm/helm-v${HELM_VERSION}-linux-amd64.tar.gz" -o helm.tar.gz \
     && tar -zxvf helm.tar.gz \
